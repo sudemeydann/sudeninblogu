@@ -1,0 +1,144 @@
+body{
+    
+    background-image: url('ben/bulut.jpg');
+}
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: rgba(248, 202, 210, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+h2{
+    cursor: pointer;
+    transition: 0.5s;
+}
+a:hover{
+    color: red;
+
+}
+.resimkutusu{
+    font-family: sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+    background-size: cover;
+    
+}
+.buton{
+    align-items: center;
+    background-color:rgba(248, 202, 210, 0.5);
+    height: 30px;
+    width: 250px;
+    border-radius: 30%;
+    margin: 220px;
+    cursor: pointer;
+}
+.buton:hover{
+    color: blueviolet;
+}
+
+.resimkutusu img{
+    max-width: 20%;
+    height: auto; 
+    border-radius: 50%; 
+    
+}
+
+.tanim{
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    background-color: rgba(248, 202, 210, 0.5);
+    width: 30%; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+.tanim p{
+    margin: 0;
+}
+
+.yazi{
+    border-radius: 10px;
+    float: right; 
+    text-align: left;
+    background-color: rgba(248, 202, 210, 0.5);
+    /* height ve width değerlerini değiştirdim */
+    height: 100px;
+    width: 30%; 
+    box-sizing: border-box;
+    /* overflow özelliği eklendi */
+    overflow: hidden;
+}
+.yazi p{
+    margin:0;
+}
+
+
+
+.kodlar {
+    background-color: rgba(248, 202, 210, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(50% - 20px); /* Yarısından biraz daha küçük yapılması için düzenlendi */
+    margin-top: 30px; /* Yükseklik ayarlandı */
+    margin-right: 20px; /* Aralık eklendi */
+    box-sizing: border-box;
+    float: left; /* Yana yaslama eklendi */
+}
+
+.kodlar h2 {
+    text-align: left;
+}
+
+.kodlar p {
+    text-align: left;
+}
+
+.kodlar img {
+    margin-top: 10px;
+}
+
+.kelebek {
+    border-radius: 10px;
+    background-color: rgba(248, 202, 210, 0.5);
+    float: left; /* Yana yaslama eklendi */
+    width: calc(50% - 20px); /* Yarısından biraz daha küçük yapılması için düzenlendi */
+    margin-top: 30px; /* Yükseklik ayarlandı */
+    box-sizing: border-box;
+}
+
+.kelebek img {
+   
+    max-width: 100%;
+    height: 200px;
+    display: block; /* Resmi blok seviyesine alarak, ortalamak için diğer ögelerle uyumlu hale getiriyoruz */
+    margin: 0 auto; /* Otomatik margin ekleyerek resmi yatay olarak ortalamak için */
+}
+.iletisim{
+   
+    align-items: center;
+    width: 40%;
+    height: auto;
+    margin: 0 ; /* Diğer divlerden ayırmak ve yatayda ortalamak için */
+  
+}
+.cicekler{
+    position: absolute;
+    top: 1670px;
+    margin-left: 900px;
+   
+}
+.cicekler img{
+    width: 600px;
+}
+  
+
+
+ 
